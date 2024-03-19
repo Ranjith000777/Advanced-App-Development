@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.addstu-main{
+    display: flex;
+    background-color: rgb(246,246,246);
+}
+.addstu-main .studentins-main{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgba(0, 16, 163, 0.096); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.studentins-main{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    gap: 2rem;
+    button{
+            width:7rem;
+            height: 2.5rem;
+            color: rgb(255, 255, 255);
+            border: none;
+            background-color: rgb(0,113,227);
+            outline: none;
+            font-size: 1rem;
+            border-radius: 20px;
+            transition: 0.3s ease;
+    }
+    h1{
+        font-size: 25px;
+        text-transform: uppercase;
+        filter: drop-shadow(5px 5px 30px #00000081);
+    }
+    button:hover{
+        background: rgb(0, 103, 206);
+            color: rgb(255, 255, 255);
+            /* border: 2px solid rgb(0, 0, 0); */
+            cursor: pointer;
+            transition: 0.3s ease;
+    }
+}
+.form-con{
+    display: flex;
+    gap: 5rem;
+    
+}
+.form-con .firsthalf{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.form-con .secondhalf{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.form-con input{
+    width: 20rem;
+    height: 3rem;
+    padding: 1rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    transition: 0.3s ease-in;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.144));
+    border-radius: 10px;
+}
+.form-con select{
+    width: 20rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    padding: 0 1rem;
+    font-size: 1rem;
+    /* filter: drop-shadow(5px 5px 50px rgba(0, 0, 0, 0.144)); */
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.082));
+    outline: none;
+    /* transition: 0.3s ease-in; */
+    border: 1px solid rgba(0, 0, 0, 0.301);
+}
+.form-con input:focus{
+    border-radius: 10px;
+    border: 2px solid rgb(43, 122, 226);
+    /* transform: scale(115%); */
+    /* transition: 0.3s ease-in; */
+    /* filter: drop-shadow(5px 5px 50px rgba(92, 0, 179, 0.459)); */
+}
+.form-con select:focus{
+    border-radius: 10px;
+    border: 2px solid rgb(43, 122, 226);
+        /* border-radius: 20px;
+        border: 2px solid blueviolet;
+        transform: scale(115%);
+        transition: 0.3s ease-in;
+        filter: drop-shadow(5px 5px 50px rgba(92, 0, 179, 0.459)); */
+}
+/* .secondhalf input{
+    width: 20rem;
+    height: 3rem;
+    padding: 1rem;
+    font-size: 1rem;
+    outline: none;
+} */
+

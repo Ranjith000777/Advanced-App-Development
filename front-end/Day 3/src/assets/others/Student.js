@@ -1,0 +1,49 @@
+const Student = [
+    {
+        student_id:1,
+        studentname:"Ranjith",
+        fathername:"Velu",
+        mothername:"Ayyammal",
+        gender:"Male",
+        age:"21",
+        nationality:"Indian",
+        address:"Kallakurichi",
+        mobileno:"8273747789",
+        sslc:"448",
+        hsc:"560",
+        diplomo:"N/A",
+        eligible:"Yes"
+    },
+    {
+        student_id:2,
+        studentname:"Rakesh",
+        fathername:"Rathesh",
+        mothername:"Ashwini",
+        gender:"Male",
+        age:"20",
+        nationality:"Indian",
+        address:"Trichy",
+        mobileno:"8374778789",
+        sslc:"418",
+        hsc:"510",
+        diplomo:"N/A",
+        eligible:"Yes"
+    },
+    {
+        student_id:3,
+        studentname:"Vimal",
+        fathername:"Vicky",
+        mothername:"Kamali",
+        gender:"Male",
+        age:"22",
+        nationality:"Indian",
+        address:"Coimbatore",
+        mobileno:"9394990944",
+        sslc:"318",
+        hsc:"370",
+        diplomo:"N/A",
+        eligible:"No"
+    },
+]
+
+export default Student
