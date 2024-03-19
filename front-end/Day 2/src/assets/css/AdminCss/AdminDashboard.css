@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.adm-dash-maincon{
+    top: 7vh;
+    position: relative;
+    margin-left: 15rem;
+    padding-top: 10rem;
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: -1rem;
+}
+.top{
+    display: flex;
+    gap: 7rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+
+}
+
+.top .first-panel{
+    width: 30vh;
+    height: 20vh;
+    background-color: orange;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 25px;
+    padding-right: 20px;
+}
+.top .first-panel:hover{
+    background-color: rgba(6, 6, 136, 0.671);
+}
+
+.top .first-panel .cust{
+    font-size: 70px;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+}
+.top .first-panel .cust-name{
+    font-size: 25px;
+    margin-left: 30px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+}
+.content{
+    width: 99%;
+    border-radius: 20px;
+    height: 55vh;
+    background-color: rgba(255, 255, 255, 0.735);
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content{
+    padding: 10px 14px;
+    color: #fff;
+    margin-left: 30px;
+}
+.content h1{
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
+.chart{
+    margin-top: 20px;
+    display: flex;
+    gap: 3rem;
+}
+.footer{
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    bottom: 0;
+    left: 250px;
+    right: 0;
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #000;
+    display: flex;
+    justify-content: right;
+    gap: 2rem;
+}
+.footer .f{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+}
+.header{
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    left: 250px;
+    right: 0;
+    padding: 35px;
+    text-align: right;
+    border-bottom: 1px solid #000;
+}

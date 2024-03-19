@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-container{
+    position: fixed;
+    z-index: 1;
+    margin-bottom: 10rem;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    background-color: rgb(246, 246, 246);
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem ;
+    border-bottom: 1px solid #dadada;  
+}
+.header-container h1{
+    font-size: 25px;
+    color: #6800ad;
+    span{
+        color: #000;
+    }
+}
+.header-container button{
+    width: 7rem;
+    height: 2.5rem;
+    font-size: 16px;
+    /* background-color: rgb(189, 0, 214); */
+    font-family: SF-Pro-Text-Regular;
+    border: none;
+    outline: none;
+    border-radius: 3rem;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    transition: 0.3s ease-in;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.header-container button:hover{
+    color: rgb(0, 0, 0);
+    border: 1px solid #000;
+    border-radius: 10px;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+.menu-item ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    gap: 0.4rem;
+    /* background-color: #333; */
+}
+
+.menu-item ul li {
+    float: left;
+  }
+  
+.menu-item ul li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 1rem;
+    width: 9rem;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+/* Change the link color to #111 (black) on hover */
+.menu-item ul li a:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.5s ease-in-out;
+    transform: scale(105%);
+  }
