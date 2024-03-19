@@ -1,0 +1,10 @@
+@font-face {
+  font-family: SF-Pro-Text-Regular;
+  src: url('./SF-Pro-Text-Regular.otf');
+}
+:root {
+  font-family: SF-Pro-Text-Regular;
+  /* font-family: Manrope, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  background-color: rgba(0, 16, 163, 0.0);
+  line-height: 30px;
+}
