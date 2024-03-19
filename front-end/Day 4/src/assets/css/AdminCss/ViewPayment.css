@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.adm-pay-maincon-view{
+    top: 7vh;
+    position: relative;
+    margin-left: 19rem;
+    padding-top: 10rem;
+    padding-top: 10rem;
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.adm-pay-content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 16px;
+    min-width: 1500px ;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px #000;
+}
+.adm-pay-content-table thead tr{
+    background-color: blueviolet;
+    color: #fff;
+    text-align: left;
+}
+.adm-pay-content-table th,
+.adm-pay-content-table td{
+    padding: 15px 15px;
+}
+.adm-pay-content-table th{
+    font-size: 18px;
+}
